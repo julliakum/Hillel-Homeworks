@@ -88,6 +88,7 @@
 .bottom-nav-try-free {
     display: inline-block;
     background-color: blue;
+    border: 1px solid blue;
     padding: 10px;
     margin-right: 20px;
 }
