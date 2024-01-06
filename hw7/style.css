@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Potta+One&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #F9F6F5;
+}
+
+.navigation-panel {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.navigation-panel_header {
+    align-items: center;
+}
+
+.navigation__logo {
+    color: #222222;
+    font-size: 24px; 
+    font-family: Red Hat Display;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.navigation-links__list_header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.navigation-links__link {
+    color: #222222; 
+    font-size: 16px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 20px;
+}
+
+.navigation-btns__list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.content__title {
+    color: black; 
+    font-size: 56px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 70px;
+    margin-top: 58px;
+    margin-bottom: 30px;
+}
+
+.content__text {
+    color: #555555; 
+    font-size: 20px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.content-search {
+    position: relative;
+    width: 326px;
+    margin-bottom: 60px;
+}
+
+.content-search__place {
+    background-color: white;
+    /* border: 1px rgba(104, 90, 82, 0.46) solid; */
+    width: 326px;
+    padding: 14px 16px;
+}
+
+.content-search__btn {
+    background-color: #402F2C;
+    padding: 8px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.content__button {
+    background-color: transparent;
+}
+
+.content__button-link {
+    color: #402F2C; 
+    font-size: 18px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 24px;
+    border: 1px solid;
+    border: 1px rgba(104, 90, 82, 0.46) solid;
+    padding: 16px 32px;
+}
+
+.content__button-link_dark {
+    background-color: #402F2C;
+    color: white
+}
+
+.main-partners__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 1px #848484 solid;
+    border-bottom: 1px #848484 solid;
+    height: 123px;
+    margin-bottom: 130px;
+}
+
+.main-product__wrapper_title {
+    color: black;
+    font-size: 56px;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.main-product__wrapper-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.main-product__wrapper-text {
+    color: #555555; 
+    font-size: 20px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 32px;
+}
+
+.main-product__wrapper-button {
+    background-color: transparent;
+    align-items: center;
+}
+
+.main-product__wrapper-button-link {
+    color: #222222; 
+    background-color: transparent;
+    font-size: 24px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    line-height: 30px;
+}
+
+.main-product__wrapper-block-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.main-product-item {
+    width: 525px;
+    height: 812px; 
+    border: 1px rgba(104, 90, 82, 0.19) solid;
+}
+
+.main-product__img {
+    margin-bottom: 100px;
+}
+
+.main-product-item__content {
+    margin-left: 32px;
+}
+
+.main-product__title {
+    color: #222222; 
+    font-size: 40px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 60px; 
+    margin-bottom: 16px;
+}
+
+.main-product__btn-group {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.main-product__text {
+    color: #555555; 
+    font-size: 20px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 32px;
+    margin-bottom: 66px;
+}
+
+.main-product__btn-price {
+    color: #222222; 
+    font-size: 30px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 32px;
+    margin-left: 19px;
+}
+
+.main-numbers {
+    background: #FDF8F5
+}
+
+.main-numbers__wrapper {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 130px;
+}
+
+.main-numbers__list {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.main-numbers__item {
+    text-align: center;
+}
+
+.main-numbers__value {
+    color: #222222; 
+    font-size: 56px; 
+    font-family: Red Hat Display; 
+    font-weight: 700; 
+    line-height: 70px;
+    border-bottom: 3px #222222 solid;
+    margin-bottom: 30px;
+}
+
+.main-numbers__text {
+    color: #555555; 
+    font-size: 24px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 30px;
+}
+
+.main-content {
+    margin-bottom: 121px;
+}
+
+.main-content__title {
+    color: black; 
+    font-size: 56px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 70px;
+    margin-top: 58px;
+    margin-bottom: 20px;
+}
+
+.main-content__text {
+    color: #555555; 
+    font-size: 20px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 32px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.main-content__text:last-of-type {
+    margin-bottom: 50px;
+}
+
+.main-article__wrapper {
+    display: flex;
+    column-gap: 47px;
+}
+
+.main-article__image {
+    margin-bottom: 139px;
+}
+
+.main-article__title {
+    color: #222222; 
+    font-size: 30px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 40px;
+    margin-top: 109px;
+    margin-bottom: 12px;
+}
+
+.main-article__list {
+    margin-bottom: 43px;
+}
+
+.main-article__item {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.main-article__text {
+   color: #555555; 
+   font-size: 20px; 
+   font-family: Red Hat Display; 
+   font-weight: 400; 
+   line-height: 32px; 
+   margin-bottom: 27px;
+}
+
+.main-article__title-auth {
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+
+.footer {
+    background: #FAFAFA
+}
+
+.subscription-wrapper {
+    padding-top: 108px;
+    padding-bottom: 64px;
+    border-bottom: 1px #DDDDDD solid;
+    margin-bottom: 59px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscription-wrapper__title {
+    color: #222222; 
+    font-size: 36px; 
+    font-family: Red Hat Display; 
+    font-weight: 500; 
+    line-height: 46px;
+}
+
+.content-search_footer {
+    width: 386px;
+}
+
+.content-search__place_footer {
+    padding: 18px;
+    width: 386px;
+}
+
+.content-search__btn-link_footer {
+   color: white; 
+   font-size: 14px; 
+   font-family: Red Hat Display; 
+   font-weight: 500; 
+   line-height: 20px;
+   padding: 10px 20px;
+}
+
+.navigation-panel_footer {
+    padding-top: 0px;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.navigation__logo_footer {
+    font-size: 40px; 
+    line-height: 50px;
+}
+
+.navigation-panel__text {
+    max-width: 326px;
+    color: #555555; 
+    font-size: 18px; 
+    font-family: Red Hat Display; 
+    font-weight: 400; 
+    line-height: 32px; 
+    margin-top: 38px;
+}
+
+.navigation-links__link_title {
+    font-size: 20px; 
+    font-weight: 500; 
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 38px;
+
+}
+
+.navigation-links__item_footer {
+    margin-bottom: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
