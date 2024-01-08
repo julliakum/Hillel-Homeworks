@@ -172,8 +172,9 @@
 }
 
 .main-product-item {
-    width: 525px;
-    height: 812px; 
+    /* width: 525px; */
+    display: flex-basic;
+    /* height: 812px;  */
     border: 1px rgba(104, 90, 82, 0.19) solid;
 }
 
@@ -198,6 +199,7 @@
     display: flex;
     column-gap: 24px;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .main-product__text {
