@@ -177,8 +177,7 @@
 }
 
 .main-product-item {
-    /* width: 525px; */
-    display: flex-basic;
+    flex-basis: 525px;
     /* height: 812px;  */
     border: 1px rgba(104, 90, 82, 0.19) solid;
 }
