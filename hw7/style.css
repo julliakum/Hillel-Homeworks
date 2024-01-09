@@ -197,7 +197,7 @@
 
 .main-product__btn-group {
     display: flex;
-    column-gap: 24px;
+    column-gap: 20gipx;
     align-items: center;
     /* margin-bottom: 48px; */
 }
