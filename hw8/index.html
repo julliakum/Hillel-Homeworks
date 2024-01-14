@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" section="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HW 8</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="nav-panel nav-panel__header">
+            <img src="./img/Logo.png" alt="Logo" class="nav-panel__logo" />
+            <div class="nav-panel-menu">
+              <ul class="nav-panel-menu-list nav-panel-menu-list_header">
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Product</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Features</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Pricing</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Resources</a>
+                </li>
+              </ul>
+            </div>
+            <div class="btn-group nav-panel-btn">
+              <ul class="btn-group-list">
+                <li class="btn-group-item">
+                  <button class="btn-group__button">Log In</button>
+                </li>
+                <li class="btn-group-item">
+                  <button
+                    class="btn-group__button btn-group__button_green-small"
+                  >
+                    Sign Up
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="section section__header">
+        <div class="container">
+          <div class="section-wrapper section-wrapper__header">
+            <span class="section__note">Header</span>
+            <h1 class="section__title section_heading_h1">
+              A small business is only <br />
+              as good as its tools.
+            </h1>
+            <p class="section__text">
+              We're different. Flex is the only saas business platform that lets
+              you run <br />
+              your business on one platform, seamlessly across all digital
+              channels.
+            </p>
+            <div class="btn-group section__btn">
+              <ul class="btn-group-list btn-group-list__header-section">
+                <li class="btn-group-item">
+                  <button
+                    class="btn-group__button btn-group__button_green-medium"
+                  >
+                    Request a Demo
+                  </button>
+                </li>
+                <li class="btn-group-item">
+                  <button class="btn-group__button btn-group__button_milky">
+                    Sign Up
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <div class="video">
+      <div class="container">
+        <div class="video-wrapper">
+          <div class="img-block img-block_video">
+            <img
+              src="./img/tools_img.png"
+              alt="img not found"
+              class="img-block__image-main"
+            />
+            <button class="img-block-btn">
+              <img
+                src="./img/play_icon.png"
+                alt="img not found"
+                class="img-block__image-play"
+              />
+            </button>
+          </div>
+          <!-- I wanted to try it with an iframe, it works both with it and with a picture from the layout ↑-->
+          <!-- <iframe
+            class="video-wrapper__item"
+            width="944"
+            height="531"
+            src="https://www.youtube.com/embed/dCJicKLctoU?si=oD6vtJYvu21RCBCM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe> -->
+        </div>
+      </div>
+    </div>
+    <!-- <main class="main">
+      <section class="section section__partners">
+        <div class="container">
+          <div class="section-wrapper section-wrapper__partners">
+            <h5 class="section-wrapper__title section_heading_h5">
+              Trusted by the top companies in this industry
+            </h5>
+            <ul class="section-wrapper__list">
+              <li class="section-wrapper__item">
+                <img
+                  class="section-wrapper__img"
+                  src="./img/giggle_icon.png"
+                  alt="img not found"
+                />
+                <img
+                  class="section-wrapper__img"
+                  src="./img/giggle.png"
+                  alt="img not found"
+                />
+              </li>
+              <li class="section-wrapper__item">
+                <img
+                  class="section-wrapper__img"
+                  src="./img/symtric_icon.png"
+                  alt="img not found"
+                />
+                <img
+                  class="section-wrapper__img"
+                  src="./img/symtric.png"
+                  alt="img not found"
+                />
+              </li>
+              <li class="section-wrapper__item">
+                <img
+                  class="section-wrapper__img"
+                  src="./img/resecurb_icon.png"
+                  alt="img not found"
+                />
+                <img
+                  class="section-wrapper__img"
+                  src="./img/resecurb.png"
+                  alt="img not found"
+                />
+              </li>
+              <li class="section-wrapper__item">
+                <img
+                  class="section-wrapper__img"
+                  src="./img/wishelp_icon.png"
+                  alt="img not found"
+                />
+                <img
+                  class="section-wrapper__img"
+                  src="./img/wishelp.png"
+                  alt="img not found"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section section__numbers">
+        <div class="container">
+          <div class="section-wrapper section-wrapper__numbers">
+            <div class="section-wrapper__num">
+              <span class="section__note section__note_content">Numbers</span>
+              <h2 class="section-wrapper__title section_heading_h2">
+                We believe in the power of data
+              </h2>
+              <p class="section__text section__text_numbers">
+                Flex is the only business platform that lets you run your
+                business on one platform, seamlessly across all digital
+                channels.
+              </p>
+            </div>
+            <div class="main-info">
+              <ul class="info-list">
+                <li class="info-list-item">
+                  <p class="info-list__numbers">235.000</p>
+                  <p class="info-list__desc">Projects completed</p>
+                  <p class="info-list__text">
+                    No need to hire specialists for each channel.
+                  </p>
+                </li>
+                <li class="info-list-item">
+                  <p class="info-list__numbers">$10m</p>
+                  <p class="info-list__desc">APR</p>
+                  <p class="info-list__text">
+                    Track how much money a company just in case
+                  </p>
+                </li>
+                <li class="info-list-item">
+                  <p class="info-list__numbers">+50.000</p>
+                  <p class="info-list__desc">Hours Saved Annually</p>
+                  <p class="info-list__text">
+                    Manage many companies, even with different languages.
+                  </p>
+                </li>
+                <li class="info-list-item">
+                  <p class="info-list__numbers">3.500</p>
+                  <p class="info-list__desc">Unique Users</p>
+                  <p class="info-list__text">
+                    Everyone works the way they want to, on their own schedule.
+                  </p>
+                </li>
+              </ul>
+              <img
+                src="./img/power_of_data.png"
+                alt="img not found"
+                class="main-info__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section__quotes">
+        <div class="container">
+          <div class="section-wrapper section-wrapper__quotes">
+            <div class="img-block img-block_quotes">
+              <img
+                src="./img/quotes_img.png"
+                alt="img not found"
+                class="img-block__image-main"
+              />
+              <button class="img-block-btn">
+                <img
+                  src="./img/play_icon.png"
+                  alt="img not found"
+                  class="img-block__image-play"
+                />
+              </button>
+            </div>
+            <div class="section-wrapper-info">
+              <span class="section__note section__note_content">Quotes</span>
+              <div class="section-wrapp">
+                <p class="section__text section__text_quotes">
+                  The best solution for anyone who wants to work a flexible
+                  schedule but still earn <br />
+                  a full-time income.
+                </p>
+                <img
+                  src="./img/commas_1.png"
+                  alt="img not found"
+                  class="section__commas section__commas_top"
+                />
+                <img
+                  src="./img/commas_2.png"
+                  alt="img not found"
+                  class="section__commas section__commas_bottom"
+                />
+              </div>
+              <p class="section__author">Darren Dunlap</p>
+              <p class="section__auth-place">CEO & Founder at Flex.co</p>
+              <img
+                src="./img/dots.png"
+                alt="img not found"
+                class="section__dots"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section__contact">
+        <div class="container">
+          <div class="section-contact-inner">
+            <div class="section-contact-wrapper-head">
+              <div class="info-header">
+                <span class="section__note section__note_content">Contact</span>
+                <h2 class="section-wrapper__title section_heading_h2">
+                  Let's stay connected
+                </h2>
+                <p class="section__text section__text_numbers">
+                  It's never been easier to get in touch with Flex. Call us, use
+                  our live chat widget or email and we'll get back to you as
+                  soon as possible!
+                </p>
+              </div>
+              <div class="btn-group section__btn">
+                <ul class="btn-group-list btn-group-list__header-section">
+                  <li class="btn-group-item">
+                    <button
+                      class="btn-group__button btn-group__button_green-medium"
+                    >
+                      Open Positions
+                    </button>
+                  </li>
+                  <li class="btn-group-item">
+                    <button class="btn-group__button btn-group__button_white">
+                      About Us
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact-wrapper-main">
+              <div class="contacts">
+                <ul class="contacts-list">
+                  <li class="contacts-list-item">
+                    <img
+                      src="./img/mail_icon.png"
+                      alt="img not found"
+                      class="contacts-list-icon"
+                    />
+                    <p class="contacts-list-item__name">Email</p>
+                    <p class="contacts-list-item__contact">contact@flex.co</p>
+                  </li>
+                  <li class="contacts-list-item">
+                    <img
+                      src="./img/phone_icon.png"
+                      alt="img not found"
+                      class="contacts-list-icon"
+                    />
+                    <p class="contacts-list-item__name">Phone</p>
+                    <p class="contacts-list-item__contact">+7-843-672-431</p>
+                  </li>
+                  <li class="contacts-list-item">
+                    <img
+                      src="./img/location_icon.png"
+                      alt="img not found"
+                      class="contacts-list-icon"
+                    />
+                    <p class="contacts-list-item__name">Office</p>
+                    <p class="contacts-list-item__contact">
+                      1686, Geraldine Lane <br />
+                      New York, NY 10013
+                    </p>
+                  </li>
+                  <li class="contacts-list-item">
+                    <img
+                      src="./img/socials_icon.png"
+                      alt="img not found"
+                      class="contacts-list-icon"
+                    />
+                    <p
+                      class="contacts-list-item__name contacts-list-item__name_social"
+                    >
+                      Socials
+                    </p>
+                    <ul class="social-media-list">
+                      <li class="social-media-list-item">
+                        <a class="social-media-list-item__link" href="#">
+                          <img
+                            class="social-media-list-item__img"
+                            src="./img/facebook.png"
+                            alt="img not found"
+                          />
+                        </a>
+                      </li>
+                      <li class="social-media-list-item">
+                        <a class="social-media-list-item__link" href="#">
+                          <img
+                            class="social-media-list-item__img"
+                            src="./img/twitter.png"
+                            alt="img not found"
+                          />
+                        </a>
+                      </li>
+                      <li class="social-media-list-item">
+                        <a class="social-media-list-item__link" href="#">
+                          <img
+                            class="social-media-list-item__img"
+                            src="./img/instagram.png"
+                            alt="img not found"
+                          />
+                        </a>
+                      </li>
+                      <li class="social-media-list-item">
+                        <a class="social-media-list-item__link" href="#">
+                          <img
+                            class="social-media-list-item__img"
+                            src="./img/LinkedIn.png"
+                            alt="img not found"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="registration-form">
+                <p class="registration-form__field-name">Email</p>
+                <input
+                  type="text"
+                  placeholder="pat@shuffle.dev"
+                  class="registration-form__field registration-form__field_email"
+                />
+                <p class="registration-form__field-name">Message</p>
+                <input
+                  type="text"
+                  placeholder="Your message..."
+                  class="registration-form__field registration-form__field_message"
+                />
+                <button class="registration-form__button">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main> -->
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <nav class="nav-panel__footer">
+            <img src="./img/Logo.png" alt="Logo" class="nav-panel__logo" />
+            <div class="nav-panel-menu">
+              <ul class="nav-panel-menu-list nav-panel-menu-list_footer">
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Product</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Features</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Pricing</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Resources</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Careers</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Help</a>
+                </li>
+                <li class="nav-panel-menu-item">
+                  <a href="#" class="nav-panel-menu__link">Privacy</a>
+                </li>
+              </ul>
+            </div>
+            <span class="footer__rights">
+              © 2021 Flex. All rights reserved.
+            </span>
+          </nav>
+        </div>
+      </div>
+    </footer> -->
+  </body>
+</html>
