@@ -62,8 +62,8 @@
 
 .nav-panel-menu-list_footer {
     display: flex;
-    justify-content: space-between;
-    padding: 32px 150px 84px 150px;
+    justify-content: center;
+    padding: 32px 0 84px 0;
 }
 
 @media screen and (max-width: 1000px) {
