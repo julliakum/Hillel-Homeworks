@@ -41,7 +41,6 @@
 
 .nav-panel-menu-list {
     display: flex;
-    justify-content: space-between;
     column-gap: 40px;
 }
 
@@ -60,8 +59,11 @@
     }
 }
 
+.nav-panel-menu-list_header {
+    justify-content: space-between;
+}
+
 .nav-panel-menu-list_footer {
-    display: flex;
     justify-content: center;
     padding: 32px 0 84px 0;
 }
