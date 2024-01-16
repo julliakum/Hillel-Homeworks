@@ -386,21 +386,30 @@
                   </li>
                 </ul>
               </div>
-              <div class="registration-form">
-                <p class="registration-form__field-name">Email</p>
+              <form action="#" method="post" class="registration-form">
+                <label for="email" class="registration-form__field-name"
+                  >Email</label
+                >
                 <input
-                  type="text"
+                  type="email"
+                  id="email"
+                  name="email"
                   placeholder="pat@shuffle.dev"
                   class="registration-form__field registration-form__field_email"
                 />
-                <p class="registration-form__field-name">Message</p>
-                <input
-                  type="text"
+                <label for="message" class="registration-form__field-name"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
                   placeholder="Your message..."
                   class="registration-form__field registration-form__field_message"
-                />
-                <button class="registration-form__button">Send</button>
-              </div>
+                ></textarea>
+                <button type="submit" class="registration-form__button">
+                  Send
+                </button>
+              </form>
             </div>
           </div>
         </div>
