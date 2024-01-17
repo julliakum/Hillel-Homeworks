@@ -1,0 +1,57 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__nav, .footer__nav {
+    padding: 20px 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.nav__link {
+    color: black;
+    background-color: rgb(134, 201, 230);
+    padding: 8px 16px;
+    border: 1px #1b304f solid;;
+}
+
+.block {
+    height: 550px;
+    text-align: center;
+}
+
+.block_1 {
+    background-color: rgb(135, 94, 172);
+}
+
+.block_2 {
+    background-color: rgb(84, 147, 184);
+}
+
+.block_3 {
+    background-color: rgb(164, 181, 92);
+}
+
+.block_4 {
+    background-color: rgb(172, 94, 155);
+}
+
+.block_5 {
+    background-color: rgb(104, 175, 82);
+}
+
+.block_6 {
+    background-color: rgb(84, 92, 184);
+}
+
+.title {
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 10px 0;
+}
