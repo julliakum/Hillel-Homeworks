@@ -8,13 +8,11 @@
     padding: 20px 0;
 }
 
-.header__nav {
+.header {
     background-color: rgb(184, 190, 190);
-    position: fixed;
+    position: sticky;
     top: 0;
-    /* width: 100%; */
-    left: 0;
-    right: 0;
+    width: 100%;
     z-index: 5;
 }
 
@@ -31,13 +29,10 @@
     border: 1px #1b304f solid;;
 }
 
-.main__content {
-    margin-top: 50px;
-}
-
 .block {
     height: 550px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .block_1 {
