@@ -8,6 +8,16 @@
     padding: 20px 0;
 }
 
+.header__nav {
+    background-color: rgb(184, 190, 190);
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
 .nav__list {
     display: flex;
     column-gap: 20px;
@@ -19,6 +29,10 @@
     background-color: rgb(134, 201, 230);
     padding: 8px 16px;
     border: 1px #1b304f solid;;
+}
+
+.main__content {
+    margin-top: 50px;
 }
 
 .block {
