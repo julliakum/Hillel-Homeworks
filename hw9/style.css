@@ -59,7 +59,7 @@
     background-color: rgb(84, 92, 184);
 }
 
-.title {
+.block__title {
     font-size: 16px;
     text-decoration: underline;
     padding: 10px 0;
