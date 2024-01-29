@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HW 10</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="navigation__wrapper">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand navigation__logo" href="#">Nexus</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Company
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Careers</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Contact Us</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Products
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">What we do</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Pricing</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Get Live Demo</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="container">
+        <div class="banner__wrapper">
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="carouselCaption1" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselCaption1"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselCaption1"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselCaption1"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/forest.jpg"
+                      class="d-block w-100"
+                      alt="carousel img"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Forest</h5>
+                      <p class="d-none d-md-block">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reiciendis nesciunt provident corrupti ea soluta? Nobis
+                        reprehenderit perspiciatis excepturi asperiores
+                        consequuntur est, ullam suscipit vero adipisci! Adipisci
+                        dolore aut asperiores accusantium!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/heaven.jpg"
+                      class="d-block w-100"
+                      alt="carousel img"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Heaven</h5>
+                      <p class="d-none d-md-block">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Possimus impedit sunt alias! Sint blanditiis
+                        molestiae illo quod aperiam nihil fugit perspiciatis
+                        totam velit doloribus, eligendi praesentium labore,
+                        corporis tempora odit. Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. At quibusdam quo adipisci
+                        rem dolor quae illo, quasi enim mollitia non!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/city.jpg"
+                      class="d-block w-100"
+                      alt="carousel img"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>City vibes</h5>
+                      <p class="d-none d-md-block">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Aperiam ipsa a debitis aliquid quasi labore, eaque
+                        sapiente non rem harum porro.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselCaption1"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselCaption1"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="container">
+        <div class="cards__wrapper">
+          <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h1 class="cards__title text-center">Title</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="cards__card_large text-center">
+                <div class="cards__img-block">
+                  <div id="cardCarouselIndicator1" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator1"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator1"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator1"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./img/lake.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./img/road.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./img/beach.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#cardCarouselIndicator1"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#cardCarouselIndicator1"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+                <a href="#" class="btn btn-dark cards__btn">Click here</a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="cards__card_large text-center">
+                <div class="cards__img-block">
+                  <div id="cardCarouselIndicator2" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator2"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator2"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator2"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./img/road2.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./img/galaxy.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./img/beach2.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#cardCarouselIndicator2"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#cardCarouselIndicator2"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+                <a href="#" class="btn btn-dark">Click here</a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="cards__card_large text-center">
+                <div class="cards__img-block">
+                  <div id="cardCarouselIndicator3" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator3"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator3"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#cardCarouselIndicator3"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./img/wall.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./img/firework.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./img/space.jpg"
+                          class="d-block w-100 cards__img"
+                          alt="card img"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#cardCarouselIndicator3"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#cardCarouselIndicator3"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+                <a href="#" class="btn btn-dark">Click here</a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="cards__card text-center">
+                <img
+                  class="cards__img"
+                  src="https://picsum.photos/250/250"
+                  alt="card img"
+                />
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="cards__card text-center">
+                <img
+                  class="cards__img"
+                  src="https://picsum.photos/250/250"
+                  alt="card img"
+                />
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="cards__card text-center">
+                <img
+                  class="cards__img"
+                  src="https://picsum.photos/250/250"
+                  alt="card img"
+                />
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="cards__card text-center">
+                <img
+                  class="cards__img"
+                  src="https://picsum.photos/250/250"
+                  alt="card img"
+                />
+                <h3 class="cards__card-title">Card Title</h3>
+                <p class="cards__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  maiores tempora est minima consequatur magni dolore debitis,
+                  sint cum quas vitae minus, aut ipsum qui provident hic dolorum
+                  itaque ipsam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <div class="container">
+        <div class="form__wrapper">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <label for="inputPassword5" class="form-label">Password</label>
+              <input
+                type="password"
+                id="inputPassword5"
+                class="form-control"
+                aria-describedby="passwordHelpBlock"
+              />
+              <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and
+                numbers, and must not contain spaces, special characters, or
+                emoji.
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Text your message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Some message..."
+                ></textarea>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Female
+                </label>
+              </div>
+              <div class="mb-3 form__files">
+                <label for="formFile" class="form-label">Add file</label>
+                <input class="form-control" type="file" id="formFile" />
+              </div>
+              <div class="col-auto">
+                <button
+                  type="submit"
+                  class="btn btn-success mb-3"
+                  id="liveToastBtn"
+                >
+                  Submit
+                </button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                  <div
+                    id="liveToast"
+                    class="toast"
+                    role="alert"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                  >
+                    <div class="toast-header">
+                      <strong class="me-auto">Confirmation</strong>
+                      <small>1 second ago</small>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="toast"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="toast-body">
+                      Thank you for your feedback!<br />
+                      The data was saved.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <span class="footer__text">@Nexus. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const toastTrigger = document.getElementById("liveToastBtn");
+      const toastLiveExample = document.getElementById("liveToast");
+
+      if (toastTrigger) {
+        const toastBootstrap =
+          bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+        toastTrigger.addEventListener("click", () => {
+          toastBootstrap.show();
+        });
+      }
+    </script>
+  </body>
+</html>
