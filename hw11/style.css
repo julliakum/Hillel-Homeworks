@@ -66,6 +66,27 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .grid-container {
+        padding: 140px 30px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "img_1 img_2 img_2 img_3 img_13"
+        "img_7 img_2 img_2 img_11 img_13"
+        "img_8 img_9 img_10 img_5 img_14"
+        "img_6 img_6 img_15 img_12 img_14"
+        "img_6 img_6 img_15 img_4 img_4 "
+        ". . . img_4 img_4"
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .grid-container {
+        padding: 160px 30px;
+    }
+}
+
 .item__title {
     font-size: 20px;
 }
