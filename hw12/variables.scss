@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Colors, Background & Text
+$color-dark: #2B2B2B;
+$color-darkish: #3B3B3B;
+$color-lighest: #858584;
+$color-highlighted: #CCCCCC;
+$color-light: #FFFFFF;
+$color-action: #A259FF;
+
+$font-family-main: 'Work Sans', sans-serif;
+$font-family-secondary: 'Space Mono', monospace;
+
+$font-weight-thick: 700;
+$font-weight-average: 600;
+$font-weight-ordinary: 400;
+
+$title-h1-font-size-lg: 67px;
+$title-h1-font-size-lgm: 62px;
+$title-h1-font-size-mg: 38px;
+
+$title-h2-font-size-lg: 51px;
+$title-h2-font-size-mg: 51px;
+
+$title-h3-font-size-lg: 38px;
+$title-h3-font-size-mg: 38px;
+
+$title-h4-font-size-lg: 28px;
+$title-h4-font-size-mg: 28px;
+
+$title-h5-font-size-lg: 22px;
+$title-h5-font-size-mg: 22px;
+
+
+$text-lg-font-size: 22px;
+$text-mg-font-size: 16px;
+$text-sm-font-size: 12px;
+
+
+$title-h1-line-height-lg: 73.7px;
+$title-h1-line-height-lgm: 62px;
+$title-h1-line-height-mg: 45.6px;
+
+$title-h2-line-height-lg: 56.1px;
+$title-h2-line-height-mg: 51px;
+
+$title-h3-line-height-lg: 45.6px;
+$title-h3-line-height-mg: 40px;
+
+$title-h4-line-height-lg: 39.2px;
+$title-h4-line-height-mg: 34px;
+
+$title-h5-line-height-lg: 30.8px;
+$title-h5-line-height-mg: 28px;
+
+$text-lg-line-height: 32px;
+$text-mg-line-height: 22.4px;
+$text-sm-line-height: 13.2px;
+
+$border-radius-main: 20px;
